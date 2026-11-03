@@ -8,8 +8,7 @@ Este proyecto busca ayudar a las personas que han perdido a sus perros o que han
 |---|---|
 |Pablo Israel Avalos Moreno|Encargado del README principal del equipo|
 |Hector Ulises Serrano Ramos|Encargado de asignación y control del modelo|
-|Jessica Abigail|Encargada de la parte creativa y visual|
-|Maria Isabella Rangel Gutierréz|Organización y verificación de Tareas|
+|Jessica Abigail Tovar Solis|Encargada de la parte creativa y visual|
 
 ## Problemática
 La pérdida de mascotas es una situación que afecta a muchas familias y encontrar a un perro puede resultar complicado cuando no se cuenta con información suficiente para identificarlo. En ocasiones, las personas publican fotografías de perros encontrados o buscan a sus mascotas mediante redes sociales, pero comparar visualmente las imágenes puede ser difícil, especialmente cuando existen diferencias de iluminación, posición, distancia o calidad fotográfica. Por esta razón, nuestro proyecto propone utilizar inteligencia artificial para analizar las características visuales de los perros y determinar si dos fotografías podrían corresponder al mismo animal.
