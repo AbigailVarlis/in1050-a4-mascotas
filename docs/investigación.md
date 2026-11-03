@@ -43,11 +43,52 @@ $$
 Memoria = 22,100,000 parámetros × 4 bytes/parámetro = 88,400,000 bytes ≈ 88.4 MB
 $$
 
+Este bajo consumo garantiza una inferencia ultrarrápida y local (Google Colab con GPU T4 ofrece 15 GB), sin necesidad de costosas APIs externas.
+
+**3.3 Comparación con otro modelo**
+
+| Criterio | Modelo Elegido: AvitoTech/DINO-v2-small | Modelo Alternativo: google/vit-base-patch16-224 |
+| --------- | --------- | --------- |
+| Tarea | Extracción de características (Embeddings comparativos).  | Clasificación directa de imágenes generales.   |
+| Parametros | 22.1 Millones (Liviano)  | 86.6 Millones (Mediano)   |
+| Ventajas | Inferencia rápida; genera vectores optimizados para comparar similitud exacta entre dos perros/gatos. | Alta precisión en clases generales (ImageNet). Amplio soporte.   |
+| Desventajas | Sensible a oclusiones severas o imágenes muy oscuras. Requiere base de datos de imágenes de referencia.  | Devuelve etiquetas estáticas, no permite comparar si el "Perro A" es el mismo individuo que el "Perro B".   |
+
+# 4. Usuarios y requisitos
+**4.1 Perfiles de usuario**
+
+- **Usuario General / Tutor de Mascota:** Sube una foto clara de un perro/gato encontrado para cotejarla contra el catálogo de mascotas perdidas, o contra el catálogo de razas para orientarse sobre su fenotipo.
+- 
+- **Rescatista / Administrador de Albergue:** Digitaliza a los animales rescatados subiendo sus fotos para que formen parte del catálogo de referencia, facilitando futuras comparaciones.
+
+**4.2 Lista de requisitos del sistema**
+
+**Requisitos Funcionales (RF):**
+
+- RF-01 (Carga): El sistema debe permitir cargar fotografías (.jpg, .png) de perros y gatos.
+- RF-02 (Embeddings): El sistema procesará la imagen con DINO-v2 para generar un vector matemático.
+- RF-03 (Comparación Vectorial): El sistema calculará la distancia coseno entre el vector de la foto ingresada y los vectores de las fotografías del catálogo de referencia pre-cargado.
+- RF-04 (Resultados): Se mostrará la imagen de referencia con mayor similitud visual y su porcentaje de coincidencia.
+
+**Requisitos No Funcionales (RNF)**:
+- RNF-01 (Eficiencia): El consumo del modelo base no superará los 100 MB de VRAM en inferencia.
+- RNF-02 (Respuesta): La comparación tomará menos de 2 segundos.
+
+# 5. Impacto ético (Alineación Magnífica Humanitas)
+Bajo los principios éticos de diseño tecnológico (León XIV, 2026), se contemplan los siguientes aspectos:
+
+- **Privacidad de los datos:** Las fotografías se procesan efímeramente. No se conservan rostros humanos de fondo ni metadatos GPS tras la extracción del vector.
+- **Sesgos del modelo:** Las IA visuales suelen estar entrenadas mayoritariamente con perros y gatos de razas puras bien iluminados. Al comparar mascotas mestizas (criollos) o en malas condiciones de luz, la precisión baja. El sistema informará claramente que es una "similitud calculada", no una verdad absoluta, para no difundir información falsa.
+- **Responsabilidad humana**: La IA actúa como filtro de apoyo. La confirmación visual final para entregar una mascota a quien dice ser su dueño recae siempre en un operador humano.
 
 
+# 6. Referencias
 
-
-
+- 1. Instituto Nacional de Estadística y Geografía (INEGI). (2021). Encuesta Nacional de Bienestar Autorreportado (ENBIARE) 2021: Módulo de Mascotas y Animales de Compañía. INEGI México.
+- 2. ASPCA National Council. (2021). Pet Statistics and Lost Pet Recovery Rates. ASPCA Research Publications.
+- 3. AvitoTech. (2024). DINO-v2-small-for-animal-identification Model Card. Hugging Face Repository.
+- 4. Meta AI Research. (2023). DINOv2: Learning Robust Visual Features without Supervision. Meta AI Publications (arXiv:2304.07193).
+- 5. Papa León XIV. (2026). Carta Encíclica Magnífica Humanitas: Sobre la custodia de la persona humana en el tiempo de la inteligencia artificial. La Santa Sede.
 
 
 
