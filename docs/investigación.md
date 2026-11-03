@@ -28,9 +28,20 @@ Para hacer frente a la identificación de animales de compañía, se emplean tra
 | 2. Placas físicas y código QR en collar | Medios visibles fijados al collar que contienen números telefónicos o un enlace QR hacia un perfil digital.  | Susceptibles a pérdida o desprendimiento; inútiles si la mascota escapa sin collar; requieren manipulación a muy corta distancia.   |
 | 3. Catalogación manual por fenotipo | Evaluación visual realizada por humanos comparando el aspecto con guías estandarizadas o reportes impresos.  | Altamente subjetiva y dependiente de la memoria y experiencia humana; consume mucho tiempo; no escalable para revisar miles de fotos de perros perdidos/encontrados.   |
 
+# 3. Por qué con IA y por qué este modelo
+**3.1 Ventajas del enfoque comparativo con Inteligencia Artificial**
 
+La Visión por Computadora transforma la identificación al sustituir la comparación humana manual por la extracción automatizada de características sutiles (embeddings). Un modelo de IA no "adivina" una raza de la nada, sino que analiza patrones complejos de texturas, morfología facial y proporciones en una fotografía, y genera un vector numérico. Este sistema permite medir matemáticamente la distancia vectorial (similitud) entre las imagenes que sube el usuario.
 
+**3.2 Selección del modelo y viabilidad de hardware**
 
+Se seleccionó el modelo abierto AvitoTech/DINO-v2-small-for-animal-identification (AvitoTech, 2024), basado en la arquitectura de Vision Transformers (Meta AI Research, 2023). Este modelo está especializado puramente en image-feature-extraction enfocado en perros y gatos.
+
+El modelo cuenta con 22.1 millones de parámetros (tamaño Small). La memoria mínima en VRAM para alojar los pesos en precisión FLOAT32 se calcula como:
+
+$$
+Memoria = 22,100,000 parámetros × 4 bytes/parámetro = 88,400,000 bytes ≈ 88.4 MB
+$$
 
 
 
