@@ -13,3 +13,18 @@ Este proyecto busca ayudar a las personas que han perdido a sus perros o que han
 
 ## Problemática
 La pérdida de mascotas es una situación que afecta a muchas familias y encontrar a un perro puede resultar complicado cuando no se cuenta con información suficiente para identificarlo. En ocasiones, las personas publican fotografías de perros encontrados o buscan a sus mascotas mediante redes sociales, pero comparar visualmente las imágenes puede ser difícil, especialmente cuando existen diferencias de iluminación, posición, distancia o calidad fotográfica. Por esta razón, nuestro proyecto propone utilizar inteligencia artificial para analizar las características visuales de los perros y determinar si dos fotografías podrían corresponder al mismo animal.
+
+## Caso de uso
+El usuario principal es una persona que ha perdido a su perro o que ha encontrado uno y desea comprobar si podría tratarse de la misma mascota.
+
+El funcionamiento contempla los siguientes elementos:
+
+Entrada: el usuario proporciona dos fotografías de perros que desea comparar.
+
+Procesamiento: el sistema analiza ambas imágenes mediante un modelo especializado en identificación individual de animales.
+
+Resultado: se obtiene un valor de similitud que permite conocer qué tan parecidas son las características visuales de ambos perros.
+
+Interpretación: con base en el resultado, el sistema ofrece una orientación sobre la posibilidad de que las fotografías correspondan al mismo perro.
+
+El resultado funciona como una referencia para apoyar la búsqueda, no como una confirmación definitiva de identidad.
