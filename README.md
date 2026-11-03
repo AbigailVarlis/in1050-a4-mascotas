@@ -27,3 +27,25 @@ Resultado: se obtiene un valor de similitud que permite conocer qué tan parecid
 Interpretación: con base en el resultado, el sistema ofrece una orientación sobre la posibilidad de que las fotografías correspondan al mismo perro.
 
 El resultado funciona como una referencia para apoyar la búsqueda, no como una confirmación definitiva de identidad.
+
+## Modelo
+|Dato|Respuesta|
+|---|---|
+|Identificador|[AvitoTech/DINO-v2-small-for-animal-identification](https://www.google.com/url?q=https%3A%2F%2Fhuggingface.co%2FAvitoTech%2FSigLIP2-Base-for-animal-identification)|
+|Tarea (pipeline tag)|`image-feature-extraction (Extracción de Embeddings para Re identificación)`|
+|Número de parámetros| 22,000,000|
+|Licencia|Apache 2.0 |
+|Limitación o sesgo declarado| Disminución en la precisión de identificación cuando las fotografías presentan iluminación deficiente, ángulos muy inclinados o cuando el rostro/cuerpo de la mascota se encuentra parcialmente ocluido.|
+
+
+## Como funciona
+```mermaid
+flowchart LR
+    A([Inicio]) --> B[Usuario ingresa 2 imágenes]
+    B --> C[Modelo DINOv2]
+    C --> D[Extracción de características]
+    D --> E[Comparación de embeddings]
+    E --> F[Cálculo de similitud coseno]
+    F --> G[Resultado de similitud]
+    G --> H([Posible coincidencia del perro])
+```
