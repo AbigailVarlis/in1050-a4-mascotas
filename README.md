@@ -7,8 +7,8 @@ Este proyecto busca ayudar a las personas que han perdido a sus perros o que han
 |Nombre completo|Rol de equipo|
 |---|---|
 |[Pablo Israel Avalos Moreno]|Encargado del README principal del equipo|
-|[Hector Ulises Serrano Ramos]|
-|[Jessica Abigail]|
+|[Hector Ulises Serrano Ramos]||
+|[Jessica Abigail]|Encargada de la parte creativa y visual|
 |[Maria Isabella Rangel Gutierréz]|
 
 ## Problemática
