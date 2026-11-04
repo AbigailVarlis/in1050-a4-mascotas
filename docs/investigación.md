@@ -37,6 +37,8 @@ La Visión por Computadora transforma la identificación al sustituir la compara
 
 ### **Selección del modelo y viabilidad de hardware**
 
+![Diagrama de embeddings](img/Diagrama_embeddings.png)
+
 Se seleccionó el modelo abierto AvitoTech/DINO-v2-small-for-animal-identification [AvitoTech, 2024](https://huggingface.co/AvitoTech/DINO-v2-small-for-animal-identification), basado en la arquitectura de Vision Transformers (Meta AI Research, 2023). Este modelo está especializado puramente en *image-feature-extraction* enfocado en perros y gatos.
 
 El modelo cuenta con 22.1 millones de parámetros (tamaño Small). La memoria mínima en VRAM para alojar los pesos en precisión FLOAT32 se calcula como:
