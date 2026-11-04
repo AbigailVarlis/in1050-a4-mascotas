@@ -88,18 +88,12 @@ El uso del modelo liviano `AvitoTech/DINO-v2-small-for-animal-identification` (2
 
 ## 6. Referencias
 
-1. Instituto Nacional de Estadística y Geografía (INEGI). (2021). Encuesta Nacional de Bienestar Autorreportado (ENBIARE) 2021: Módulo de Mascotas y Animales de Compañía. INEGI México.
-   https://www.inegi.org.mx/programas/enbiare/2021/
-2. ASPCA National Council. (2021). Pet Statistics and Lost Pet Recovery Rates. ASPCA Research Publications.
-   https://www.aspca.org/helping-shelters-people-pets/us-animal-shelter-statistics
-3. AvitoTech. (2024). DINO-v2-small-for-animal-identification Model Card. Hugging Face Repository.
-   https://huggingface.co/AvitoTech/DINO-v2-small-for-animal-identification
-4. Papa León XIV. (2026). Carta Encíclica Magnífica Humanitas: Sobre la custodia de la persona humana en el tiempo de la inteligencia artificial. La Santa Sede.
-   https://www.vatican.va/content/leo-xiv/es/encyclicals/documents/20260515-magnifica-humanitas.html
-5. Google Research. (2021). Vision Transformer (vit-base-patch16-224) Model Card & Repository. Hugging Face.
-   https://huggingface.co/google/vit-base-patch16-224
-6. Meta AI Research. (2023). DINOv2: Learning Robust Visual Features without Supervision. arXiv Computer Vision (arXiv:2304.07193).
-   https://arxiv.org/pdf/2304.07193
+1. [Instituto Nacional de Estadística y Geografía (INEGI). (2021). Encuesta Nacional de Bienestar Autorreportado (ENBIARE) 2021: Módulo de Mascotas y Animales de Compañía. INEGI México.](https://www.inegi.org.mx/programas/enbiare/2021/)
+2. [ASPCA National Council. (2021). Pet Statistics and Lost Pet Recovery Rates. ASPCA Research Publications.](https://www.aspca.org/helping-shelters-people-pets/us-animal-shelter-statistics)
+3. [AvitoTech. (2024). DINO-v2-small-for-animal-identification Model Card. Hugging Face Repository.](https://huggingface.co/AvitoTech/DINO-v2-small-for-animal-identification)
+4. [Papa León XIV. (2026). Carta Encíclica Magnífica Humanitas: Sobre la custodia de la persona humana en el tiempo de la inteligencia artificial. La Santa Sede.](https://www.vatican.va/content/leo-xiv/es/encyclicals/documents/20260515-magnifica-humanitas.html)
+5. [Google Research. (2021). Vision Transformer (vit-base-patch16-224) Model Card & Repository. Hugging Face.](https://huggingface.co/google/vit-base-patch16-224)
+6. [Meta AI Research. (2023). DINOv2: Learning Robust Visual Features without Supervision. arXiv Computer Vision (arXiv:2304.07193).](https://arxiv.org/pdf/2304.07193)
 
 
 
