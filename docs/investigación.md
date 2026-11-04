@@ -19,7 +19,7 @@ El impacto del extravío y la falta de identificación de mascotas alcanza propo
 - **Estadísticas de fauna sin hogar:** Se estima que 7 de cada 10 perros y gatos carecen de un tutor formal o se encuentran en situación de calle en algún momento de su vida en México, convirtiendo la gestión poblacional canina y felina en un tema prioritario de salud pública [INEGI, 2021](https://www.inegi.org.mx/programas/enbiare/2021/).
 - **Tasa de recuperación y fallos de identificación:** Aproximadamente del 15% al 20% de las familias enfrentan el extravío de una mascota en un periodo de 5 años. De aquellas sin microchip, menos del 18% de los perros y menos del 5% de los gatos logran regresar a su hogar. Gran parte de esta baja tasa se debe a la dificultad de clasificar e identificar visualmente a la mascota encontrada contra los reportes de pérdida [ASPCA, 2021](https://www.aspca.org/helping-shelters-people-pets/us-animal-shelter-statistics).
 
-![Gráfica estadística de la problemática de mascotas](Evidencia_estadistica.png)
+![Gráfica estadística de la problemática de mascotas](img/Evidencia_estadistica.png)
 
 ## 2. Cómo se resuelve hoy
 Para hacer frente a la identificación de animales de compañía, se emplean tradicionalmente diversos métodos, pero la mayoría presenta barreras operativas para la comparación visual ágil.
