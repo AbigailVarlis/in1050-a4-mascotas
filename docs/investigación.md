@@ -33,7 +33,7 @@ Para hacer frente a la identificación de animales de compañía, se emplean tra
 ## 3. Por qué con IA y por qué este modelo
 ### **Ventajas del enfoque comparativo con Inteligencia Artificial**
 
-La Visión por Computadora transforma la identificación al sustituir la comparación humana manual por la extracción automatizada de características sutiles (embeddings). Un modelo de IA no "adivina" una raza de la nada, sino que analiza patrones complejos de texturas, morfología facial y proporciones en una fotografía, y genera un vector numérico. Este sistema permite medir matemáticamente la distancia vectorial (similitud) entre las imagenes que sube el usuario.
+La Visión por Computadora transforma la identificación al sustituir la comparación humana manual por la extracción automatizada de características sutiles **(embeddings)**. Un modelo de IA no "adivina" una raza de la nada, sino que analiza patrones complejos de texturas, morfología facial y proporciones en una fotografía, y genera un vector numérico. Este sistema permite medir matemáticamente la distancia vectorial (similitud) entre las imagenes que sube el usuario.
 
 ### **Selección del modelo y viabilidad de hardware**
 
@@ -60,7 +60,6 @@ Este bajo consumo garantiza una inferencia ultrarrápida y local (Google Colab c
 ### **Perfiles de usuario**
 
 - **Usuario General / Tutor de Mascota:** Sube una foto clara de un perro/gato encontrado para cotejarla contra el catálogo de mascotas perdidas, o contra el catálogo de razas para orientarse sobre su fenotipo.
-- 
 - **Rescatista / Administrador de Albergue:** Digitaliza a los animales rescatados subiendo sus fotos para que formen parte del catálogo de referencia, facilitando futuras comparaciones.
 
 ### **Lista de requisitos del sistema**
