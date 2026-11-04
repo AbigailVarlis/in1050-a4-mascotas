@@ -1,5 +1,7 @@
+### **Proyecto integrador · Fase 2 · Herramientas de procesamiento para IA · IN1050-A4-mascotas**
+
 # Patitas ID
-**Proyecto integrador · Fase 2 · Herramientas de procesamiento para IA · IN1050-A4-mascotas**
+
 Este proyecto busca ayudar a las personas que han perdido a sus perros o que han encontrado uno y desean saber si podría pertenecer a alguien. Para ello, se desarrolla un sistema basado en inteligencia artificial capaz de comparar dos fotografías de perros y analizar qué tan similares son visualmente. El sistema utiliza un modelo especializado en identificación individual de animales para extraer características de las imágenes y calcular un valor de similitud. De esta manera, se busca ofrecer una herramienta tecnológica que facilite la búsqueda y recuperación de mascotas, apoyando a sus dueños y a las personas que participan en el rescate y cuidado de animales.
 
 ## Equipo
