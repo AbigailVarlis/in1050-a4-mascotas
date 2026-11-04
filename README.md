@@ -40,14 +40,16 @@ El resultado funciona como una referencia para apoyar la búsqueda, no como una 
 
 ## Como funciona
 ```mermaid
-flowchart LR
-    A([Inicio]) --> B[Usuario ingresa 2 imágenes]
-    B --> C[Modelo DINOv2]
+flowchart TD
+    A([Inicio]) --> B[/Usuario ingresa 2 imágenes/]
+    B --> |Fotografías digitales| C[Modelo DINOv2]
     C --> D[Extracción de características]
-    D --> E[Comparación de embeddings]
+    D --> |Vectores de rasgos| E[Comparación de embeddings]
     E --> F[Cálculo de similitud coseno]
-    F --> G[Resultado de similitud]
-    G --> H([Posible coincidencia del perro])
+    F --> G{Resultado de similitud}
+    G --> |Coincidencia válida| H([Posible coincidencia del perro/gato])
+	G --> |Sin coincidencias| I[Solicitar nueva fotografia]
+	I --> |Reintento| B
 ```
 ## Viabilidad de hardware
 
