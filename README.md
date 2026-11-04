@@ -47,7 +47,7 @@ flowchart TD
 	G --> |Sin coincidencias| I[Solicitar nueva fotografia]
 	I --> |Reintento| B
 ```
-## Viabilidad de hardware
+## Infraestructura
 
 Memoria mínima=N×2 bytes≈ ? GB
 
@@ -82,3 +82,8 @@ $$
 - [ ] Seguir haciendo pruebas ,ahora con un caso real para probar la certania de nuestro modelo
 - [ ] Aprender nuevas herramientas y aplicarlas (interfaz,mas sobre hit gub, etc)
 - [ ] Mejorar en aspectos de la terminal y GitHub
+
+## Referencias
+1. [AvitoTech. (2024). DINO-v2-small-for-animal-identification Model Card. Hugging Face Repository.](https://huggingface.co/AvitoTech/DINO-v2-small-for-animal-identification)
+2. [Papa León XIV. (2026). Carta Encíclica Magnífica Humanitas: Sobre la custodia de la persona humana en el tiempo de la inteligencia artificial. La Santa Sede.](https://www.vatican.va/content/leo-xiv/es/encyclicals/documents/20260515-magnifica-humanitas.html)
+3. [Instituto Nacional de Estadística y Geografía (INEGI). (2021). Encuesta Nacional de Bienestar Autorreportado (ENBIARE) 2021: Módulo de Mascotas y Animales de Compañía. INEGI México.](https://www.inegi.org.mx/programas/enbiare/2021/)
