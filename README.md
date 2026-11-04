@@ -68,3 +68,17 @@ $$
 
 - **Riesgo:** Posible error en la comparación de imágenes, y a futuro, pueden existir riesgos mayores debido al uso de datos personales. 
 - **Mitigación:** Para nuestro riesgo actual (comparación falsa) podemos definir de manera más precisa los parámetros de las comparaciones. 
+
+
+##  Cambios respecto a la Fase 1
+
+1. Cambio en el enfoque del proyecto: Decidimos modificar el enfoque inicial del proyecto, ya que todavía no teníamos completamente definido qué dirección queríamos seguir. Por ello, ajustamos la idea para tener objetivos más claros.
+
+2. Redistribución de roles: Modificamos ligeramente las responsabilidades de cada integrante, sin cambiar por completo los roles originales, con la intención de fomentar un mayor apoyo y colaboración entre todos.
+
+3. Modificación en los resultados del modelo: Cambiamos la manera en que el modelo presenta los resultados. En lugar de mostrar únicamente un «sí» o un «no» al comparar las imágenes, ahora proporciona un porcentaje de probabilidad del 0 al 100 % sobre la similitud entre ambas imágenes.
+
+## Siguientes Pasos
+- [ ] Seguir haciendo pruebas ,ahora con un caso real para probar la certania de nuestro modelo
+- [ ] Aprender nuevas herramientas y aplicarlas (interfaz,mas sobre hit gub, etc)
+- [ ] Mejorar en aspectos de la terminal y GitHub
