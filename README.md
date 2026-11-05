@@ -32,7 +32,7 @@ El funcionamiento contempla los siguientes elementos:
 |Tarea (pipeline tag)|`image-feature-extraction (Extracción de Embeddings para Re identificación)`|
 |Número de parámetros| 22,000,000|
 |Licencia|Apache 2.0 |
-|Limitación o sesgo declarado| Disminución en la precisión de identificación cuando las fotografías presentan iluminación deficiente, ángulos muy inclinados o cuando el rostro/cuerpo de la mascota se encuentra parcialmente ocluido.|
+|Limitación o sesgo declarado| Disminución en la precisión de identificación cuando las fotografías presentan iluminación deficiente, ángulos muy inclinados o cuando el rostro/cuerpo de la mascota se encuentra parcialmente ocluido. Ademas de no contar con API para probar su funcionamiento|
 
 
 ## Como funciona
